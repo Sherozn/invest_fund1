@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/me/main",
+    "pages/bond/main",
+    "pages/record/main",
+    "pages/addfund/main",
+    "pages/additem/main",
+    "pages/editfund/main",
+    "pages/showins/main"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA5149",
+    "navigationBarTitleText": "定投记录",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#EA5149",
+    "list": [
+      {
+        "pagePath":"pages/index/main",
+        "text":"首页",
+        "iconPath": "static/images/huasheng.png",
+        "selectedIconPath": "static/images/huasheng-active.png"
+      },
+      {
+        "pagePath":"pages/me/main",
+        "text":"我的",
+        "iconPath": "static/images/binggan.png",
+        "selectedIconPath": "static/images/binggan-active.png"
+      }
+    ]
+  }
+}
